@@ -1,0 +1,16 @@
+E:\PhoneBookTask\PhoneBook\PhoneBookLibrary\bin\Debug\netstandard2.0\PhoneBookLibrary.deps.json
+E:\PhoneBookTask\PhoneBook\PhoneBookLibrary\bin\Debug\netstandard2.0\PhoneBookLibrary.dll
+E:\PhoneBookTask\PhoneBook\PhoneBookLibrary\bin\Debug\netstandard2.0\PhoneBookLibrary.pdb
+E:\PhoneBookTask\PhoneBook\PhoneBookLibrary\bin\Debug\netstandard2.0\System.ComponentModel.DataAnnotations.dll
+E:\PhoneBookTask\PhoneBook\PhoneBookLibrary\bin\Debug\netstandard2.0\System.Configuration.dll
+E:\PhoneBookTask\PhoneBook\PhoneBookLibrary\bin\Debug\netstandard2.0\System.Security.dll
+E:\PhoneBookTask\PhoneBook\PhoneBookLibrary\bin\Debug\netstandard2.0\System.ComponentModel.DataAnnotations.xml
+E:\PhoneBookTask\PhoneBook\PhoneBookLibrary\bin\Debug\netstandard2.0\System.Configuration.xml
+E:\PhoneBookTask\PhoneBook\PhoneBookLibrary\bin\Debug\netstandard2.0\System.Security.xml
+E:\PhoneBookTask\PhoneBook\PhoneBookLibrary\obj\Debug\netstandard2.0\PhoneBookLibrary.AssemblyInfoInputs.cache
+E:\PhoneBookTask\PhoneBook\PhoneBookLibrary\obj\Debug\netstandard2.0\PhoneBookLibrary.AssemblyInfo.cs
+E:\PhoneBookTask\PhoneBook\PhoneBookLibrary\obj\Debug\netstandard2.0\PhoneBookLibrary.csproj.CoreCompileInputs.cache
+E:\PhoneBookTask\PhoneBook\PhoneBookLibrary\obj\Debug\netstandard2.0\PhoneBookLibrary.csproj.CopyComplete
+E:\PhoneBookTask\PhoneBook\PhoneBookLibrary\obj\Debug\netstandard2.0\PhoneBookLibrary.dll
+E:\PhoneBookTask\PhoneBook\PhoneBookLibrary\obj\Debug\netstandard2.0\PhoneBookLibrary.pdb
+E:\PhoneBookTask\PhoneBook\PhoneBookLibrary\obj\Debug\netstandard2.0\PhoneBookLibrary.csprojAssemblyReference.cache

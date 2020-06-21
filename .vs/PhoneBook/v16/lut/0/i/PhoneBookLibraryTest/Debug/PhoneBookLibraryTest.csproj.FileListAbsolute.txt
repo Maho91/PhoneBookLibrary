@@ -1,0 +1,8 @@
+E:\PhoneBookTask\PhoneBook\.vs\PhoneBook\v16\lut\0\b\PhoneBookLibraryTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+E:\PhoneBookTask\PhoneBook\.vs\PhoneBook\v16\lut\0\b\PhoneBookLibraryTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+E:\PhoneBookTask\PhoneBook\.vs\PhoneBook\v16\lut\0\b\PhoneBookLibraryTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+E:\PhoneBookTask\PhoneBook\.vs\PhoneBook\v16\lut\0\b\PhoneBookLibraryTest\bin\Debug\PhoneBookLibraryTest.dll
+E:\PhoneBookTask\PhoneBook\.vs\PhoneBook\v16\lut\0\i\PhoneBookLibraryTest\Debug\PhoneBookLibraryTest.csprojAssemblyReference.cache
+E:\PhoneBookTask\PhoneBook\.vs\PhoneBook\v16\lut\0\i\PhoneBookLibraryTest\Debug\PhoneBookLibraryTest.csproj.CoreCompileInputs.cache
+E:\PhoneBookTask\PhoneBook\.vs\PhoneBook\v16\lut\0\i\PhoneBookLibraryTest\Debug\PhoneBookLibraryTest.csproj.CopyComplete
+E:\PhoneBookTask\PhoneBook\.vs\PhoneBook\v16\lut\0\i\PhoneBookLibraryTest\Debug\PhoneBookLibraryTest.dll

@@ -1,0 +1,6 @@
+E:\PhoneBookTask\PhoneBook\.vs\PhoneBook\v16\lut\0\b\PhoneBookLibraryApi\bin\PhoneBookLibraryApi.dll.config
+E:\PhoneBookTask\PhoneBook\.vs\PhoneBook\v16\lut\0\b\PhoneBookLibraryApi\bin\PhoneBookLibraryApi.dll
+E:\PhoneBookTask\PhoneBook\.vs\PhoneBook\v16\lut\0\i\PhoneBookLibraryApi\Debug\PhoneBookLibraryApi.csprojAssemblyReference.cache
+E:\PhoneBookTask\PhoneBook\.vs\PhoneBook\v16\lut\0\i\PhoneBookLibraryApi\Debug\PhoneBookLibraryApi.csproj.CoreCompileInputs.cache
+E:\PhoneBookTask\PhoneBook\.vs\PhoneBook\v16\lut\0\i\PhoneBookLibraryApi\Debug\PhoneBookLibraryApi.csproj.CopyComplete
+E:\PhoneBookTask\PhoneBook\.vs\PhoneBook\v16\lut\0\i\PhoneBookLibraryApi\Debug\PhoneBookLibraryApi.dll

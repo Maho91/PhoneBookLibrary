@@ -1,0 +1,8 @@
+E:\PhoneBookTask\PhoneBook\.vs\PhoneBook\v16\lut\0\b\PhoneBookLibrary\Debug\netstandard2.0\PhoneBookLibrary.deps.json
+E:\PhoneBookTask\PhoneBook\.vs\PhoneBook\v16\lut\0\b\PhoneBookLibrary\Debug\netstandard2.0\PhoneBookLibrary.dll
+E:\PhoneBookTask\PhoneBook\.vs\PhoneBook\v16\lut\0\i\PhoneBookLibrary\Debug\netstandard2.0\PhoneBookLibrary.csprojAssemblyReference.cache
+E:\PhoneBookTask\PhoneBook\.vs\PhoneBook\v16\lut\0\i\PhoneBookLibrary\Debug\netstandard2.0\PhoneBookLibrary.AssemblyInfoInputs.cache
+E:\PhoneBookTask\PhoneBook\.vs\PhoneBook\v16\lut\0\i\PhoneBookLibrary\Debug\netstandard2.0\PhoneBookLibrary.AssemblyInfo.cs
+E:\PhoneBookTask\PhoneBook\.vs\PhoneBook\v16\lut\0\i\PhoneBookLibrary\Debug\netstandard2.0\PhoneBookLibrary.csproj.CopyComplete
+E:\PhoneBookTask\PhoneBook\.vs\PhoneBook\v16\lut\0\i\PhoneBookLibrary\Debug\netstandard2.0\PhoneBookLibrary.dll
+E:\PhoneBookTask\PhoneBook\.vs\PhoneBook\v16\lut\0\i\PhoneBookLibrary\Debug\netstandard2.0\PhoneBookLibrary.csproj.CoreCompileInputs.cache

@@ -1,0 +1,290 @@
+openapi: 3.0.0
+info:
+  title: phonebook
+  version: '1.0'
+servers:
+  - url: 'http://localhost:57649'
+paths:
+  '/api/phonebook/{name}':
+    get:
+      summary: Get By Name
+      tags: []
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties: {}
+              examples:
+                Response body example:
+                  value:
+                    name: Mahmoud AlRawy
+                    phoneBookEntryDetails:
+                      - type: Office
+                        number: '0553040490'
+                      - type: Cellphone
+                        number: '0684049385'
+        '400':
+          description: Bad Request
+          content:
+            application/json:
+              schema:
+                type: object
+                properties: {}
+              examples:
+                Response body example:
+                  value: The requested name does not exist in the phone book library
+      operationId: get-api-phonebook
+      parameters: []
+      description: ''
+    parameters:
+      - schema:
+          type: string
+        name: name
+        in: path
+        required: true
+    delete:
+      summary: Delete by name
+      operationId: delete-api-phonebook-name
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties: {}
+              examples:
+                Response body example:
+                  value: The recored has been Deleted successfully
+        '406':
+          description: When trying to delete a nonexisting record or there is no phone book library created yet
+          content:
+            application/json:
+              schema:
+                type: object
+                properties: {}
+              examples:
+                Response body example for deleteing non existing record:
+                  value:
+                    message: The requested record does not exist in the phone book
+                Response body example when executing before creating the phone book:
+                  value:
+                    message: No phone book is created yet
+  /api/phonebook/:
+    post:
+      summary: Create new entry
+      operationId: post-api-phonebook
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties: {}
+              examples:
+                Body Example:
+                  value:
+                    name: Maho Lani
+                    phoneBookEntryDetails:
+                      - type: Office
+                        number: '0553040490'
+                      - type: Cellphone
+                        number: '0684049385'
+        '406':
+          description: If the body does not match the request body example.Or the name parameter is sent with a single word.
+          content:
+            text/plain:
+              schema:
+                type: object
+                properties: {}
+              examples:
+                Respose body exmaple (Invalid body parameters):
+                  value:
+                    message: The request is invalid.
+                    modelState:
+                      'entity.PhoneBookEntryDetails[0].Type':
+                        - Number type parameter is required
+                Single word body request respose exmaple (single word named request):
+                  value: 'The name parameter is incorrect, the name must at least has two parts (first and last name)'
+      parameters:
+        - schema:
+            type: string
+          in: header
+          name: Content-Type
+          description: application/json
+        - schema:
+            type: string
+          in: header
+          name: Accept
+          description: application/json
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                name:
+                  type: string
+                  description: First name and last name
+                phoneBookEntryDetails:
+                  type: array
+                  items:
+                    type: object
+                    properties:
+                      type:
+                        type: string
+                        description: '(Work, Cellphone or Home)'
+                      number:
+                        type: string
+                    required:
+                      - type
+                      - number
+              required:
+                - name
+                - phoneBookEntryDetails
+            examples:
+              Request body example:
+                value:
+                  name: Mahmoud Al-Rawy
+                  phoneBookEntryDetails:
+                    - type: Office
+                      number: '0553040490'
+                    - type: Cellphone
+                      number: '0684049385'
+        description: ''
+  '/api/PhoneBook/{name}':
+    put:
+      summary: ''
+      operationId: put-api-PhoneBook
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties: {}
+              examples:
+                Single word body request respose exmaple (single word named request):
+                  value: Update the recored with the name (Mahmoud AlRawy) has been successful
+                Respose body exmaple (Invalid body parameters):
+                  value:
+                    message: The request is invalid.
+                    modelState:
+                      'entity.PhoneBookEntryDetails[0].Type':
+                        - Number type parameter is required
+        '406':
+          description: If the body does not match the request body example.Or the name parameter is sent with a single word.
+          content:
+            text/plain:
+              schema:
+                type: object
+                properties: {}
+              examples:
+                example-1:
+                  value: 'The name parameter is incorrect, the name must at least has two parts (first and last name)'
+      description: ''
+      parameters:
+        - schema:
+            type: string
+          in: header
+          name: Content-Type
+        - schema:
+            type: string
+          in: header
+          name: Accept
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                name:
+                  type: string
+                  description: First name and last name
+                phoneBookEntryDetails:
+                  type: array
+                  items:
+                    type: object
+                    properties:
+                      type:
+                        type: string
+                        description: '(Work, Cellphone or Home)'
+                      number:
+                        type: string
+                    required:
+                      - type
+                      - number
+              required:
+                - name
+                - phoneBookEntryDetails
+            examples:
+              Request body example:
+                value:
+                  name: Mahmoud Lani
+                  phoneBookEntryDetails:
+                    - type: Office
+                      number: '0553040490'
+                    - type: Cellphone
+                      number: '0684049385'
+    parameters:
+      - schema:
+          type: string
+        name: name
+        in: path
+        required: true
+  /api/PhoneBook/file:
+    get:
+      summary: Your GET endpoint
+      tags: []
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties: {}
+              examples:
+                Response body example:
+                  value: 'file:///C:/DataFile.dat'
+        '400':
+          description: Bad Request
+          content:
+            application/json:
+              schema:
+                type: object
+                properties: {}
+              examples:
+                Response body example:
+                  value: No phone book is created yet
+      operationId: get-api-PhoneBook-file
+    delete:
+      summary: ''
+      operationId: delete-api-PhoneBook-file
+      responses:
+        '200':
+          description: OK
+          content:
+            application/x-tex:
+              schema:
+                type: string
+              examples:
+                Response body example:
+                  value: The PhoneBook has been deleted
+        '400':
+          description: Bad Request
+          content:
+            application/json:
+              schema:
+                type: object
+                properties: {}
+              examples:
+                Response body example:
+                  value: No phone book is created yet
+components:
+  schemas: {}
