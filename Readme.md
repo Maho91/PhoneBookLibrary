@@ -29,7 +29,7 @@ Clone the project and open the PhoneBook.sln file to display, build, and run the
 
 #### Rest API Routs 
 
-For testing the REST APIs using postman, you can download the [YAML](https://choosealicense.com/licenses/mit/) documentation file to import it as an Open API option to the postman. By doing so, the documentation file will create the routes automatically to prepare a testing environment within Postman that can be found under the collection tap. Alternatively, you can test the Rest API via using the below information manually.
+For testing the REST APIs using postman, you can download the [YAML](https://github.com/Maho91/PhoneBookLibrary/blob/master/apiphonebook.v1.yaml) documentation file to import it as an Open API option to the postman. By doing so, the documentation file will create the routes automatically to prepare a testing environment within Postman that can be found under the collection tap. Alternatively, you can test the Rest API via using the below information manually.
 
 > #### 1- Create New Entry 
 
